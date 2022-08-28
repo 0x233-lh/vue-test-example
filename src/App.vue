@@ -2,13 +2,11 @@
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import HelloWorld from './components/HelloWorld.vue'
+import MockTest from "./components/MockTest.vue";
 </script>
 
 <template>
-  <div>
-    Mock测试 + e2e测试
-  </div>
-  <a-button>测试</a-button>
+  <mock-test />
 </template>
 
 <style scoped>
